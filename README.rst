@@ -33,6 +33,7 @@ Install
     git clone https://github.com/shinnytech/open-trade-gateway.git
 
 编译与安装::
+  
   cd open-trade-gateway
   sudo make
   sudo make install
