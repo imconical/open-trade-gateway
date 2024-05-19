@@ -95,7 +95,7 @@ Run
 -------------------------------------------------
 在命令行下运行服务器主程序::
 
-  open_trade_gateway
+  open-trade-gateway
 
 系统运行日志将输出到文件 /var/log/open-trade-gateway/open-trade-gateway.log 中,如果目录 /var/log/open-trade-gateway/ 不存在,请手工创建.
 
@@ -215,6 +215,6 @@ Test
 
 Q&A
 -------------------------------------------------
-1、执行open_trade_gateway后，未启动重新返回命令行
+1、执行open-trade-gateway后，未启动重新返回命令行
 
 解决：基本出现在编译完成后的首次运行，请检查是否对broker_list.json 、config.json重命名并配置。出现该问题时，一般/var/log/open-trade-gateway/open-trade-gateway.log中的提示信息是找不到config.json文件
