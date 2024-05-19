@@ -81,7 +81,7 @@ Config
 
       {
         "name": "simnow",
-        "type": "ctp"，
+        "type": "ctp",
         "is_fens":false,
         "broker_id": "9999",
         "product_info": "abcd",
@@ -217,4 +217,4 @@ Q&A
 -------------------------------------------------
 1、执行open_trade_gateway后，未启动重新返回命令行
 
-解决：基本出现在编译完成后的首次运行，请检查是否对broker_list.json 、config.json重命名并配置。出现该问题时，一般/var/log/open-trade-gateway//open-trade-gateway.log中的提示信息是找不到config.json文件
+解决：基本出现在编译完成后的首次运行，请检查是否对broker_list.json 、config.json重命名并配置。出现该问题时，一般/var/log/open-trade-gateway/open-trade-gateway.log中的提示信息是找不到config.json文件
