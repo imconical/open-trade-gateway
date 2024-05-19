@@ -20,7 +20,7 @@ Install
 
 用apt命令安装 openssl 和 libcurl::
 
-    sudo apt install libcurl4-openssl-dev
+    sudo apt install libssl-dev, libcurl4-openssl-dev
 
 2019-03-21前的版本需要安装 boost 1.68.0, 参见 https://www.boost.org/doc/libs/1_68_0/more/getting_started/unix-variants.html
 
